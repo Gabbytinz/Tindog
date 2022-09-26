@@ -1,0 +1,192 @@
+body{
+  font-family: "Montserrat";
+}
+
+
+/* Styling the title section using our ID=title */
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+p{
+  color:#8f8f8f;
+}
+
+i:hover{
+color:#ff4c68;
+}
+
+/* ID CSS STYLING */
+
+#features{
+
+  padding: 10% 15% 10%;
+  position: relative;
+  text-align: center;
+}
+
+/* Testimonial section */
+#testimonials,#press{
+  text-align: center;
+  background-color: #ef8172;
+}
+/* Press */
+#press{
+  padding-bottom:3%;
+}
+/* Pricing */
+#pricing{
+  text-align: center;
+  padding:100px;
+}
+/* secction cta */
+#cta{
+  text-align: center;
+ padding: 7% 25%;
+}
+
+/* section footer */
+#footer{
+text-align: center;
+padding:4% 2% 5%;
+}
+
+/* SECTIONS */
+.colored-section{
+  background-color:#ff4c68;
+  color:#fff;
+}
+.white-section{
+  background-color:white;
+  color:#000;
+}
+
+.features-txt,.pricing-txt{
+  font-size:1.5rem;
+  font-weight: bold;
+}
+.pricing-txt,.testimonial-txt{
+  font-size: 3rem;
+}
+
+
+
+.big-iccon{
+  margin-bottom :1rem;
+}
+.fa-apple{
+  margin-right:10px;
+}
+
+.phone-txt{
+  padding:0 7.5rem;
+}
+
+/* navbar section  */
+
+.navbar{
+  padding:0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-left: 6.25rem;
+}
+
+.ml-auto{
+  margin-left:65%;
+}
+.nav-item{
+  padding:0 18px;
+}
+.navbar-padd{
+  margin-left: 1.50rem;
+  font-weight: lighter;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family:"Montserrat-light";
+}
+
+/* Download Button */
+
+.space-btn{
+  margin:10% 3% 5% 0;
+}
+.rotate{
+  width:25%;
+  transform: rotate(25deg);
+}
+
+.img-z{
+  position: absolute;
+}
+/* Features */
+
+
+
+.color-icon{
+  color:#ef8172;
+}
+
+
+.carousel-inner{
+  padding:7% 15%;
+}
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+.press-logo{
+  width:9%;
+  margin:20px 20px 50px;
+}
+
+
+.pricing-col{
+  padding:3% 2%;
+}
+.btn-inc{
+  width:100%;
+}
+
+
+.cta-txt{
+  font-size: 3.5rem;
+  font-family: "Montserrat-black";
+  line-height: 1.5;
+}
+
+.btn-pad{
+  margin-top:30px;
+  margin-left: 20px;
+}
+
+.fa-sicon{
+  color:#000;
+  margin-left:7px;
+  margin-bottom:20px;
+}
+
+
+/* Media query styling */
+@media (max-width:1028px) {
+
+  #title{
+    text-align: center;
+  }
+.container-fluid{
+padding-bottom:0.2rem;
+
+}
+.rotate{
+  position: static;
+  transform: rotate(0);
+  width:60%;
+}
+}
